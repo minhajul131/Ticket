@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".Booking"
+    android:orientation="vertical"
+    android:background="#0F242020">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="220dp"
+        android:src="@drawable/streeing"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/a1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="A1"
+            android:textColor="@color/green"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="72dp"
+            />
+        <Button
+            android:id="@+id/a2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="A2"
+            android:textColor="@color/green"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="72dp" />
+        <Button
+            android:id="@+id/a3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:text="A3"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="72dp" />
+        <Button
+            android:id="@+id/a4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="A4"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="72dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="45dp"
+            android:textColor="@color/green"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="B1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="481dp" />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:textColor="@color/green"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="B2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="481dp" />
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="B3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="481dp" />
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="B4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="481dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/c1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="C1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="539dp" />
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="30dp"
+            android:text="C2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="539dp" />
+        <Button
+            android:id="@+id/c3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="C3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="539dp" />
+        <Button
+            android:id="@+id/c4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="C4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="539dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/d1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="D1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="602dp" />
+        <Button
+            android:id="@+id/d2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/green"
+            android:text="D2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="602dp" />
+        <Button
+            android:id="@+id/d3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="D3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="602dp" />
+        <Button
+            android:id="@+id/d4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="D4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="602dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/e1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="E1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="276dp" />
+        <Button
+            android:id="@+id/e2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/green"
+            android:text="E2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="276dp" />
+        <Button
+            android:id="@+id/e3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="E3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="276dp" />
+        <Button
+            android:id="@+id/e4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="E4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="276dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/f1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="F1"
+            android:textColor="@color/green"
+
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="418dp" />
+        <Button
+            android:id="@+id/f2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="F2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="418dp" />
+        <Button
+            android:id="@+id/f3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="F3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="418dp" />
+        <Button
+            android:id="@+id/f4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="F4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="418dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/g1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="G1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="352dp" />
+        <Button
+            android:id="@+id/g2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/green"
+            android:text="G2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="352dp" />
+        <Button
+            android:id="@+id/g3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="G3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="352dp" />
+        <Button
+            android:id="@+id/g4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="G4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="352dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/h1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="H1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="132dp" />
+        <Button
+            android:id="@+id/h2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="H2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="132dp" />
+        <Button
+            android:id="@+id/h3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="H3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="132dp" />
+        <Button
+            android:id="@+id/h4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="H4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="132dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/i1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="I1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="202dp" />
+        <Button
+            android:id="@+id/i2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="I2"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="202dp" />
+        <Button
+            android:id="@+id/i3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="10dp"
+            android:text="I3"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="202dp" />
+        <Button
+            android:id="@+id/i4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="I4"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="202dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/j1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:text="J1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="666dp" />
+        <Button
+            android:id="@+id/j2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/green"
+            android:layout_marginRight="30dp"
+            android:text="J2"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="666dp" />
+        <Button
+            android:id="@+id/j3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:text="J3"
+            tools:layout_editor_absoluteX="337dp"
+            tools:layout_editor_absoluteY="666dp" />
+        <Button
+            android:id="@+id/j4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="J4"
+            android:textColor="@color/green"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="666dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red seats are booked"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ticket</string>
+    <string name="SelectCity">Select City</string>
+    <string-array name="city">
+        <item>Bogura</item>
+        <item>Dhaka(Mohakhali)</item>
+        <item>Dhaka(Gabtoli)</item>
+        <item>Chittagong</item>
+        <item>Coxs Bazar</item>
+        <item>Dinajpur</item>
+        <item>Rangpur</item>
+        <item>Feni</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textSize="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="40dp" />
+
+        <Spinner
+            android:id="@+id/spnner1"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:prompt="@string/SelectCity"
+            android:entries="@array/city"
+            android:spinnerMode="dialog"/>
+
+        <View
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp" />
+
+        <Spinner
+            android:id="@+id/spnner2"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:prompt="@string/SelectCity"
+            android:entries="@array/city"
+            android:spinnerMode="dialog"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:text="Select Date"
+            android:textSize="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/buttonGo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/darker_gray"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
